@@ -1,0 +1,167 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.slider {
+    position: relative;
+    background-image: url(https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15rem 0;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.text {
+    top: 30%;
+    left: 5%;
+    position: absolute;
+}
+
+.text span {
+    background-color: RGBA(255, 193, 7, var(--bs-bg-opacity, 1)) !important;
+    color: #000 !important;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.text h2 {
+    font-size: 32px;
+    color: #001e2b;
+    margin: 20px 0;
+}
+
+.text p {
+    font-size: 18px;
+    color: #5c6c7b;
+    margin-bottom: 30px;
+}
+
+.text a {
+    color: #fff;
+    background-color: #001e2b;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.text a:hover {
+    background-color: #26404a;
+}
+
+
+
+
+.a {
+    margin: 5rem 0 2rem;
+}
+
+.categories-all .col-lg-2 {
+    text-align: center;
+    border: 1px solid whitesmoke;
+    padding: 20px 0;
+}
+
+.categories-all .col-lg-2 {
+    margin-bottom: 1rem;
+}
+
+
+
+
+.picture {
+    position: relative;
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png);
+    background-position: center;
+    background-size: cover;
+    padding: 6rem 0;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.writing {
+    top: 20%;
+    left: 5%;
+    position: absolute;
+}
+
+.writing h3 {
+    font-size: 20px;
+    color: #001e2b;
+    margin: 10px 0;
+}
+
+.writing p {
+    font-size: 18px;
+    color: #5c6c7b;
+    margin-bottom: 20px;
+}
+
+.writing a {
+    color: #fff;
+    background-color: #001e2b;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.writing a:hover {
+    background-color: #26404a;
+}
+
+.b {
+    margin: 5rem 0 2rem;
+}
+
+.products-all .col-lg-2-5 {
+    border: 1px solid whitesmoke;
+    padding: 20px 0;
+}
+
+.products-all .box{
+    position: relative;
+}
+
+.hot{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    color: #fff;
+    background-color: red;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.products-all .box-name p{
+    color: #5c6c75;
+    margin: 0px;
+}
+
+.products-all .box-name a{
+    color: #21313c;
+}
+
+.products-all .btn{
+    background-color: #0aad0a;
+}
+
+.products-all .btn svg{
+    color: #fff;
+}
+
+.products-all .box-price{
+    display: inline-block;
+}
+
+.products-all .box-name p,h6,.box-price,a{
+    padding-left: 20px;
+}
+
